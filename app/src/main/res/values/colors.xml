@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#272727</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#004AAD</color>
+    <color name="grey">#ababab</color>
+    <color name="green">#068251</color>
+    <color name="naranja">#E67E22</color>
+
+    <style name="imagenredonda">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

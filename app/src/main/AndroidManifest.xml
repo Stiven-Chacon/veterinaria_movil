@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <!-- Le damos el permiso a la aplicacion para que tenga acceso a internet -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Le damos el permiso de almacenamiento -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Le damos el permiso de lectura de almacenamiento -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Animalagro"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Activity.ProductosPorCategoriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PasarelaDePagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PedidosPendientesAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CitaPorFaltaDeAtenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetallesServicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ServicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IndexAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MisCitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MisPedidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AgregarMascotaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ListarMascotasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EditarUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IndexUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

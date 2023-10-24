@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="horas_array">
+        <item>7:00 AM</item>
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+    </string-array>
+
+    <string-array name="metodo_pago_array">
+        <item>PSE</item>
+        <item>Bancolombia</item>
+        <item>Nequi</item>
+
+    </string-array>
+
+    <string-array name="municipios_huila_array">
+        <item>Neiva</item>
+        <item>Pitalito</item>
+        <item>Garzón</item>
+        <item>Huila</item>
+        <item>Acevedo</item>
+        <item>Agrado</item>
+        <item>Aipe</item>
+        <item>Algeciras</item>
+        <item>Altamira</item>
+        <item>Baraya</item>
+        <item>Campoalegre</item>
+        <item>Colombia</item>
+        <item>Elías</item>
+        <item>Garzón</item>
+        <item>Gigante</item>
+        <item>Guadalupe</item>
+        <item>Hobo</item>
+        <item>Íquira</item>
+        <item>Isnos</item>
+        <item>La Argentina</item>
+        <item>La Plata</item>
+        <item>Nátaga</item>
+        <item>Neiva</item>
+        <item>Oporapa</item>
+        <item>Paicol</item>
+        <item>Palermo</item>
+        <item>Palestina</item>
+        <item>Pital</item>
+        <item>Pitalito</item>
+        <item>Rivera</item>
+        <item>Saladoblanco</item>
+        <item>San Agustín</item>
+        <item>Santa María</item>
+        <item>Suaza</item>
+        <item>Tarqui</item>
+        <item>Tello</item>
+        <item>Teruel</item>
+        <item>Tesalia</item>
+        <item>Timaná</item>
+        <item>Villavieja</item>
+        <item>Yaguará</item>
+    </string-array>
+
+</resources>
